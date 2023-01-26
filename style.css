@@ -10,6 +10,66 @@
   color: #27251F;
   box-sizing: border-box;
   font-family: sans-serif;
+  background-color: #113A31;
+}
+
+body {
+  padding: 1rem;
+  padding-right: 3rem;
 }
 
 /* your code */
+
+nav {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+/*  Headline */
+h1 {
+  display: inline-block;
+  margin-top: 0;
+  padding: 1rem;
+  color: white;
+  font-size: 3.5rem;
+}
+
+.mug {
+  float: right;
+}
+
+header {
+  display: inline-block;
+  width: 100%;
+  background-color: #AAAAAA;
+  border-radius: 4px;
+  padding: 1.5rem;
+}
+
+/* City Container */
+.city-list {
+  padding: 15px;
+  margin-top: 3rem;
+  border: 2px solid white;
+  border-radius: 4px;
+}
+
+/* Container Items */
+.city-item {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #007747;
+  padding: .75rem;
+  margin: .75rem;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+/* Label */
+#city-sbux-count {
+  color: black;
+  background-color: #AAAAAA;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
